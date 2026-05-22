@@ -1,5 +1,3 @@
-https://mockapi.io/projects/6a106759d2a985707036bfbc
-
 
 # BuildTrack Material Manager
 
@@ -33,7 +31,7 @@ The application helps manage construction materials by allowing users to add, vi
 This project uses MockAPI for backend simulation.
 
 MockAPI Endpoint:
-https://6a106759d2a985707036bfbc.mockapi.io/materials
+https://mockapi.io/projects/6a106759d2a985707036bfbc
 
 ---
 
