@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "b53c7cfc-3005-41bf-9854-2faada0e4ef3",
+		"name": "My Collection",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47795050",
+		"_collection_link": "https://aryantls2024-3561171.postman.co/workspace/Aryan-Telis's-Workspace~f8b89820-da65-4066-8a67-ad2dca6d36ac/collection/47795050-b53c7cfc-3005-41bf-9854-2faada0e4ef3?action=share&source=collection_link&creator=47795050"
+	},
+	"item": [
+		{
+			"name": "BuildTrack API Collection",
+			"item": [
+				{
+					"name": "ADD Materials",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Steel\",\n  \"quantity\": 500,\n  \"status\": \"In Stock\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://6a106759d2a985707036bfbb.mockapi.io/materials",
+							"protocol": "https",
+							"host": [
+								"6a106759d2a985707036bfbb",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"materials"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Materials",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Steel\",\n  \"quantity\": 500,\n  \"status\": \"In Stock\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://6a106759d2a985707036bfbb.mockapi.io/materials",
+							"protocol": "https",
+							"host": [
+								"6a106759d2a985707036bfbb",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"materials"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Materials",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Updated Steel\",\n  \"quantity\": 500,\n  \"status\": \"In Stock\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://6a106759d2a985707036bfbb.mockapi.io/materials/2",
+							"protocol": "https",
+							"host": [
+								"6a106759d2a985707036bfbb",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"materials",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Materials",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Deleted Steel\",\n  \"quantity\": 500,\n  \"status\": \"In Stock\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://6a106759d2a985707036bfbb.mockapi.io/materials/2",
+							"protocol": "https",
+							"host": [
+								"6a106759d2a985707036bfbb",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"materials",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
